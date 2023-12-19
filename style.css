@@ -1,0 +1,188 @@
+body {
+  font-family: sans-serif;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #0074D9;
+}
+
+a:visited {
+  color: #0041A6;
+}
+
+pre {
+  border: 1px solid gray;
+  padding: 0.5em;
+}
+
+.footnote-definition {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.footnote-definition p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footnote-definition-label {
+  display: inline;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  padding-right: 10px;
+
+  font-size: medium;
+}
+
+.footnote-definition-label::after {
+  content: ".";
+}
+
+.content {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1em;
+  max-width: 80ch;
+}
+
+.center {
+  text-align: center;
+}
+
+.contact {
+  border: solid black;
+  display: inline-block;
+  padding: 1em 2em;
+
+  background-color: #76c6ff;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.monospace {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.title {
+  background-color: #00b3ff;
+  border: solid black;
+  box-shadow: 6px 6px 0px #ffc0ff;
+  display: inline-block;
+  padding: 0em 2em;
+}
+
+.home-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-column {
+  margin: 1em;
+}
+
+.blink {
+  animation: blink-animation 1s steps(2, start) infinite;
+
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.quiet-link {
+  color: inherit;
+  text-decorations: inherit;
+}
+.quiet-link:visited {
+  color: inherit;
+  text-decorations: inherit;
+}
+
+.nav {
+  margin-top: 1em;
+}
+
+code {
+  white-space: pre-wrap !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner {
+  /* in the center */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  /* take up entire width */
+  width: 100%;
+
+  /* gray background, white text */
+  background-color: #555;
+  color: white;
+}
+
+.banner div {
+  margin: 0.5em;
+}
+
+.banner a {
+  color: #7FDBFF;
+}
+
+/* padding between list elements */
+li {
+  margin: 0.5em;
+}
+
+.embeddable-buttondown-form {
+  margin-top: 1em;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+
+  border: solid black;
+
+  box-shadow: 6px 6px 0px #F5A9B8;
+}
+
+.embeddable-buttondown-form input {
+  margin: 0.5em;
+
+  border: 1px solid darkgrey;
+  border-radius: 0.5em;
+  box-shadow: 0px 0px 0px;;
+
+  font-size: 100%;
+
+  max-width: 100%;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  border: 1px solid black;
+  border-radius: 0.5em;
+
+  font-size: 100%;
+  font-weight: bold;
+
+  box-shadow: 6px 6px 0px #5BCEFA;
+}
