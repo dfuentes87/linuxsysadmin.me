@@ -60,7 +60,7 @@ pre {
   text-align: center;
 }
 
-.contact {
+.blue-box {
   border: solid black;
   display: inline-block;
   padding: 1em 2em;
@@ -90,7 +90,7 @@ pre {
   justify-content: center;
 }
 
-.home-column {
+.trans-box {
   margin: 1em;
 }
 
@@ -107,11 +107,9 @@ pre {
 
 .quiet-link {
   color: inherit;
-  text-decorations: inherit;
 }
 .quiet-link:visited {
   color: inherit;
-  text-decorations: inherit;
 }
 
 .nav {
@@ -151,38 +149,4 @@ img {
 /* padding between list elements */
 li {
   margin: 0.5em;
-}
-
-.embeddable-buttondown-form {
-  margin-top: 1em;
-  padding: 1em;
-
-  display: flex;
-  flex-direction: column;
-
-  border: solid black;
-
-  box-shadow: 6px 6px 0px #F5A9B8;
-}
-
-.embeddable-buttondown-form input {
-  margin: 0.5em;
-
-  border: 1px solid darkgrey;
-  border-radius: 0.5em;
-  box-shadow: 0px 0px 0px;;
-
-  font-size: 100%;
-
-  max-width: 100%;
-}
-
-.embeddable-buttondown-form input[type="submit"] {
-  border: 1px solid black;
-  border-radius: 0.5em;
-
-  font-size: 100%;
-  font-weight: bold;
-
-  box-shadow: 6px 6px 0px #5BCEFA;
 }
