@@ -53,7 +53,7 @@ pre {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  padding: 1em;
+  padding: 3em 1em;
   max-width: 80ch;
 }
 
@@ -84,6 +84,7 @@ pre {
   box-shadow: 6px 6px 0px #ffc0ff;
   display: inline-block;
   padding: 0em 2em;
+  text-align: center;
 }
 
 .home-row {
